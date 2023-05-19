@@ -1,20 +1,28 @@
 /* background */
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+   min-height: 100%;
+}
+
 
 body {
     background-color: #2c2f33;
-
 }
 /* copyright footer */
 footer {
     font-family:Monospace, Courier;
     color:#cc7516;
-}
-.foot_index{
+    position: fixed; 
+    bottom: 2%; 
+    width: 100%;
     text-align:center;
 }
-.foot_about{
-    margin-left:10px;
-}
+
+
+
 /* nav index */
 .nav {
     overflow: auto;
