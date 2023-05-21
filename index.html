@@ -20,6 +20,8 @@
             this is my first webpage.
         </div>
         <hr>
+
+        <div class="links">
             <ul class="nav flex-column">
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">reload</a>
@@ -34,6 +36,14 @@
                     <a class="nav-link" href="codes.html">code</a>
                 </li>
             </ul>
-         <footer class="foot_index"> <small>&copy; Copyright 2021, Laaveshwaran Parthiban</small> </footer>
+        </div>
+            
+        <footer> 
+            <small>
+                &copy; Copyright <span id="copyright"></span>, Laaveshwaran Parthiban
+            </small> 
+        </footer>
+        <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
     </body>
+    
 </html>

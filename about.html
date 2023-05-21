@@ -83,6 +83,12 @@
                 or require any help.
             </p>
         </div>
-        <footer class="foot_about"> <small>&copy; Copyright 2021, Laaveshwaran Parthiban</small> </footer>
+        <footer> 
+            <small>
+                &copy; Copyright <span id="copyright"></span>, Laaveshwaran Parthiban
+            </small> 
+        </footer>
+        <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+ 
     </body>
 </html>
